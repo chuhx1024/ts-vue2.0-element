@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <h1>你好</h1>
+        <h1 class="main-title">你好</h1>
         <el-row>
             <el-button>默认按钮</el-button>
             <el-button type="primary">主要按钮</el-button>
@@ -14,5 +14,8 @@
 </template>
 
 <style lang="scss" scoped>
+.main-title {
+    color: $primary-color;
+}
 
 </style>
